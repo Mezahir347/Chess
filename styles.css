@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 32px;
+}
+body {
+  background-image: url("img/jon-tyson-SlntP-SLi0Q-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 0.063rem 0.063rem black;
+}
+
+/* Header */
+
+.logo{
+  display: inline-block;
+  margin-top: 0.625rem;
+}
+
+h1{
+  display: inline-block;
+  position: relative;
+  bottom: 0.625rem;
+}
+
+/* Navbar */
+
+.navbar{
+  width: 100%;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.navbar li{
+  padding-left: 0.625rem;
+}
+
+.navbar a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* About */
+
+.about{
+  background-image:url("img/lumensoft-technologies-kvNkTSrLhO8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 7.813rem;
+  margin-top: 0.938rem;
+  padding-top: 1.25rem;
+}
+
+.about p {
+  padding-top: 0.938rem;
+}
+
+/* Activities */
+
+.activities {
+  height: auto;
+  margin-top: 0.938rem;
+}
+.activity-img{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 0.938rem;
+
+}
+
+.activity-img img{
+  width: 9.375rem;
+  height: 9.375rem;
+  padding-left: 0.938rem;
+}
+
+.activity-img figure{
+  padding-bottom: 0.625rem;
+}
+
+/* Gallery */
+
+.gallery{
+  margin-top: 0.938rem;
+}
+
+.gallery-img{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 0.938rem;
+}
+
+.gallery-img figure{
+  padding-bottom: 0.625rem;
+}
+
+.gallery-img img{
+  width: 9.375rem;
+  height: 9.375rem;
+  padding-left: 0.938rem;
+}
+
+/* Contact */
+
+.contact{
+  border: 0.063rem solid darkgoldenrod;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  text-align: center;
+}
+
+/* Footer */
+.footer p{
+     padding-bottom: 0.625rem;
+ }
+
+/* Media queries  */
+
+@media only screen and (max-width: 640px){
+  html{
+    font-size: 20px;
+  }
+
+  .logo{
+    display: inline-block;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  h1{
+    display: inline-block;
+    position: relative;
+    bottom: 0.3rem;
+  }
+  
+  .gallery {
+    width: 100%;
+  }
+  .gallery-img img{
+    width: 50%;
+    max-height: 15rem;
+    padding-left: 1.5rem;
+  }
+
+  .activities{
+    width: 100%;
+  }
+  .activity-img img{
+    width: 50%;
+    max-height: 15rem;
+    padding-left: 1.5rem;
+  }
+}
+
